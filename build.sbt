@@ -11,3 +11,8 @@ libraryDependencies ++= Seq(
   cache,
   javaWs
 )
+
+enablePlugins(DebianPlugin)
+maintainer := "Alan Ramos <zippisan78@gmail.com>"
+packageSummary := "My sbt projekt"
+packageDescription := "Package"
